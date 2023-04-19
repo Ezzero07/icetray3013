@@ -1,0 +1,40 @@
+# ice tray requires those functions, if one is missing the script will NOT run:
+
+- setclipboard
+- identifyexecutor
+- getrawmetatable
+- setreadonly (or make_writeable)
+- newcclosure
+- islclosure
+- firetouchinterest
+- is_synapse_function
+- fireclickdetector
+- getsynasset (or getcustomasset)
+- getgenv
+- getrenv
+- getconnections
+- getgc
+- setscriptable
+- isnetworkowner
+- sethiddenproperty
+
+# DEBUG LIB
+- debug.getregistry
+- debug.getconstants
+- debug.setconstant
+- debug.getupvalues
+- debug.getupvalue
+- debug.setupvalue
+
+# SYN LIB
+
+- syn.request (or request)
+
+# FILESYSTEM
+
+- writefile
+- appendfile
+- makefolder
+- isfile
+- isfolder
+- readfile
